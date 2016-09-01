@@ -1,0 +1,174 @@
+@font-face{
+  font-family: FromCartoonBlock;
+  src: url('./Font/From Cartoon Blocks.ttf');
+}
+
+.wrapper{
+   width: 924px;
+   height: 756px;
+   padding: 0;
+   border: 1px solid green;
+ }
+
+#leftPart {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 720px;
+}
+
+#rightPart {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  float: right;
+}
+
+.header{
+  /*border: 1px solid orange;*/
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 60px;
+  
+}
+
+/*Icons*/
+#left-icons{
+  float: left;
+}
+
+#right-icons{
+  float: right;
+}
+
+#sound-icon{
+  margin:0;
+  padding:0;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+
+#title{
+  margin:0;
+  padding:0;
+  padding-left: 50px;
+  /*padding-top: 0px;*/
+  display: inline-block;
+
+  font-family: FromCartoonBlock, Verdana sans-serif;
+  font-size: 50px;
+  font-weight: normal;
+  color: orange;
+
+}
+
+#pen-icon{
+  width: 23px;
+  height: 50px;
+}
+
+/*#size-icon{*/
+
+/*}*/
+
+/*#color-icon{*/
+
+/*}*/
+
+
+
+.main{
+  /*border: 1px solid red;*/
+  width: 100%;
+  height: 540px;
+
+}
+
+#main-drawing-window  {
+  /*border: 1px solid black;*/
+
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 10px;
+  top: 72px;
+  width: 720px;
+  height: 540px;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  z-index: -1;
+}
+
+#side-ul{
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+  list-style-type: none;
+}
+
+.tools{
+  margin:0;
+  padding: 0;
+  border: 1px solid grey;
+  border-radius: 10px;
+  float: left;
+  width: 100%;
+  height: 150px;
+}
+
+.side-imgs-list{
+  margin: 0;
+  padding: 2px;
+}
+
+.side-img{
+  border: 1px solid gray;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.front{
+  margin:0;
+  padding:0;
+  width: 710px;
+  height: 530px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  user-drag: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  z-index: -2;
+}
+
+.sidebar-images{
+  margin:0;
+  padding:0;
+  float: right;
+  width: 200px;
+  height: 754px;
+  /*border: 1px solid yellowgreen;*/
+  text-align: center;
+}
+
+.painting-tools{
+  width: 70px;
+}
+
+.color-tools{
+  width: 150px;
+}
+
+.size-tools{
+  width: 150px;
+}
+
+.blank-tools{
+  width: 50px;
+}
